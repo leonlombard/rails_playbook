@@ -10,6 +10,15 @@ To add a gem from Github using the following format in the Gemfile: `gem "gem_na
 
 Researching...
 
+##  Creating a new Engine
+
+To create a new engine enter the following command: `rails plugin new <name> --full|mountable`
+
+- `Full` provides the ability for a plugin to provide rails functionality to the main application. Features such as routes, controllers, models will be as if it is part of the main applicaiton.
+- `Mountable` provides the same as the full option. However, it operates in it's own namespace so that it does not affect the main application. 
+
+
+
 ### Example Engines
 
 - [Devise](https://github.com/plataformatec/devise)
