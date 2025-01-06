@@ -10,7 +10,7 @@ To add a gem from Github using the following format in the Gemfile: `gem "gem_na
 
 Researching...
 
-## Example Engines
+### Example Engines
 
 - [Devise](https://github.com/plataformatec/devise)
 - [Thredded](https://github.com/thredded/thredded)
