@@ -2,6 +2,10 @@
 
 This is a playbook holding notes on developing software using Ruby and the Rails framework.
 
+## Gems
+
+To add a gem from Github using the following format in the Gemfile: `gem "gem_name", git: "git@github.com:name/repo"`
+
 ## Rails Engines
 
 Researching...
