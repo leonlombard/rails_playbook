@@ -17,7 +17,21 @@ To create a new engine enter the following command: `rails plugin new <name> --f
 - `Full` provides the ability for a plugin to provide rails functionality to the main application. Features such as routes, controllers, models will be as if it is part of the main applicaiton.
 - `Mountable` provides the same as the full option. However, it operates in it's own namespace so that it does not affect the main application. 
 
+# Migrations
 
+Migrations are first required to be installed before running them in the main application. This is due to them be located in the engines instead of the main application.
+
+Install only one engine's migrations:
+
+`bin/rails <engine_name>:install:migrations`
+
+Install multiple engine's migrations: 
+
+`bin/rails railstie:install:migrations`
+
+Once the migrations have been installed they can be run as usual in the main application: 
+
+`bin/rails db:migrate`
 
 ### Example Engines
 
